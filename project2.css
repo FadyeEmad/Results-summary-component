@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px;
+  }
+  
+  /* Left Section */
+  .result-section {
+    background: linear-gradient(to bottom, #7756e6, #5b2dd4);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    flex: 1;
+  }
+  
+  .result-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .score-circle {
+    background: #4d21c9;
+    margin: 20px auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .score {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .total {
+    font-size: 1rem;
+    opacity: 0.8;
+  }
+  
+  .result-section h3 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+  }
+  
+  .result-section .description {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  /* Right Section */
+  .summary-section {
+    padding: 30px;
+    flex: 1.5;
+  }
+  
+  .summary-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .summary-section ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .reaction {
+    background: #ffe6e6;
+    color: #ff5757;
+  }
+  
+  .memory {
+    background: #fff5e6;
+    color: #ffb457;
+  }
+  
+  .verbal {
+    background: #e6f7f3;
+    color: #5dd2aa;
+  }
+  
+  .visual {
+    background: #e6e8ff;
+    color: #5757ff;
+  }
+  
+  .continue-btn {
+    background: #232a38;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .continue-btn:hover {
+    background: #1a1f28;
+  }
+  
